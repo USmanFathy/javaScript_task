@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(../img/server-2160321_1920.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.text{
+    display: none;
+    color: white;
+    font-size: 20px;
+    padding: 50px 50px ;
+}
+.totalprice{
+    display: none;
+    padding-top: 50px;
+    padding-left: 200px ;
+    color: white;
+    font-size: 20px;
+}
+#btn{
+    display: none;
+    border-radius: 20px;
+    margin: 150px 50px;
+    width: 100px;
+    height: 40px;
+}
+.card:hover{
+    transition: 1s;
+    transform: scale(1.1);
+}
