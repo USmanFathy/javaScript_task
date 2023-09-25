@@ -21,5 +21,5 @@ allProducts.forEach(function(item){
 
 btn.onclick = function(){
     price.style.display = 'block'
-    price.innerHTML += parseInt(totalprice)
+    price.innerHTML ='Total Price :' + parseInt(totalprice)
 }
